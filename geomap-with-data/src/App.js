@@ -11,7 +11,7 @@ const App = () => {
         features={countries.features}
         margin={{ top: 0, right: 0, bottom: 0, left: 0 }}
         colors="YlOrRd"
-        domain={[ 0, 1000000 ]}
+        domain={[0,25000]}
         unknownColor="#666666"
         label="properties.name"
         valueFormat=".2s"
@@ -38,7 +38,7 @@ const App = () => {
             {e.feature.properties.name}:{" "}
             {e.feature.value
               ? e.feature.value.toLocaleString()
-              : "No data"}
+              : e.feature.value}
           </div>
         );}}
         legends={[

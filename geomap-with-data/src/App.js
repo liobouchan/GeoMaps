@@ -2,7 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import { ResponsiveChoropleth } from '@nivo/geo'
 import countries from './data/world_contries.json'
-import data from './data/heat_data.json'
+import data from './data/probando.json'
 const App = () => {
   return(
     <div style={{ height: 800 }}>
